@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DrinksCollectionViewCell" id="gTV-IL-0wX" customClass="DrinksCollectionViewCell" customModule="RestoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3aO-ng-Pct">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <color key="backgroundColor" red="0.99672826780000001" green="0.31823409920000001" blue="0.27322187689999999" alpha="0.1017677277" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PTH-bc-fgs">
+                        <rect key="frame" x="20" y="8" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="aR2-TR-BwR"/>
+                            <constraint firstAttribute="width" constant="80" id="kZY-ph-Zi9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QD5-4K-Pz4">
+                        <rect key="frame" x="39" y="93" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="3aO-ng-Pct" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4dO-Oo-3BU"/>
+                <constraint firstAttribute="trailing" secondItem="3aO-ng-Pct" secondAttribute="trailing" id="BIc-Jz-eXU"/>
+                <constraint firstItem="QD5-4K-Pz4" firstAttribute="centerX" secondItem="3aO-ng-Pct" secondAttribute="centerX" id="Eo9-Ef-vMV"/>
+                <constraint firstItem="3aO-ng-Pct" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FJX-5D-gmj"/>
+                <constraint firstItem="PTH-bc-fgs" firstAttribute="centerX" secondItem="3aO-ng-Pct" secondAttribute="centerX" id="UFx-RX-EIL"/>
+                <constraint firstItem="PTH-bc-fgs" firstAttribute="top" secondItem="3aO-ng-Pct" secondAttribute="top" constant="8" id="cCw-S5-8pN"/>
+                <constraint firstItem="QD5-4K-Pz4" firstAttribute="top" secondItem="PTH-bc-fgs" secondAttribute="bottom" constant="5" id="f0t-6p-PO7"/>
+                <constraint firstAttribute="bottom" secondItem="3aO-ng-Pct" secondAttribute="bottom" id="x1f-q0-VI6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="drinksIcon" destination="PTH-bc-fgs" id="WNh-Fe-Bm1"/>
+                <outlet property="lblDrinksName" destination="QD5-4K-Pz4" id="Khq-zM-l0A"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

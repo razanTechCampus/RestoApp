@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		15DF441E21EBBD6E00EE147B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF441D21EBBD6E00EE147B /* AppDelegate.swift */; };
-		15DF442021EBBD6E00EE147B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF441F21EBBD6E00EE147B /* ViewController.swift */; };
 		15DF442321EBBD6E00EE147B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DF442121EBBD6E00EE147B /* Main.storyboard */; };
 		15DF442621EBBD6E00EE147B /* RestoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15DF442421EBBD6E00EE147B /* RestoApp.xcdatamodeld */; };
 		15DF442821EBBD6F00EE147B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DF442721EBBD6F00EE147B /* Assets.xcassets */; };
 		15DF442B21EBBD6F00EE147B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DF442921EBBD6F00EE147B /* LaunchScreen.storyboard */; };
+		15DF443421EBC03100EE147B /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF443321EBC03100EE147B /* FoodViewController.swift */; };
+		15DF443621EBC03E00EE147B /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF443521EBC03E00EE147B /* DrinksViewController.swift */; };
+		15DF443921EBC44100EE147B /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF443821EBC44100EE147B /* MenuItems.swift */; };
+		15DF443D21EBC77900EE147B /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF443B21EBC77900EE147B /* FoodTableViewCell.swift */; };
+		15DF443E21EBC77900EE147B /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DF443C21EBC77900EE147B /* FoodTableViewCell.xib */; };
+		15DF444121ED026500EE147B /* DrinksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF443F21ED026500EE147B /* DrinksCollectionViewCell.swift */; };
+		15DF444221ED026500EE147B /* DrinksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DF444021ED026500EE147B /* DrinksCollectionViewCell.xib */; };
+		15DF444421ED11E500EE147B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF444321ED11E500EE147B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15DF441A21EBBD6E00EE147B /* RestoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DF441D21EBBD6E00EE147B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15DF441F21EBBD6E00EE147B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15DF442221EBBD6E00EE147B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15DF442521EBBD6E00EE147B /* RestoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestoApp.xcdatamodel; sourceTree = "<group>"; };
 		15DF442721EBBD6F00EE147B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15DF442A21EBBD6F00EE147B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15DF442C21EBBD6F00EE147B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DF443321EBC03100EE147B /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		15DF443521EBC03E00EE147B /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		15DF443821EBC44100EE147B /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		15DF443B21EBC77900EE147B /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		15DF443C21EBC77900EE147B /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		15DF443F21ED026500EE147B /* DrinksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCollectionViewCell.swift; sourceTree = "<group>"; };
+		15DF444021ED026500EE147B /* DrinksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinksCollectionViewCell.xib; sourceTree = "<group>"; };
+		15DF444321ED11E500EE147B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +70,10 @@
 		15DF441C21EBBD6E00EE147B /* RestoApp */ = {
 			isa = PBXGroup;
 			children = (
+				15DF443A21EBC76000EE147B /* Custom Views */,
+				15DF443721EBC41000EE147B /* Classes & Structs */,
+				15DF443221EBC01A00EE147B /* ViewControllers */,
 				15DF441D21EBBD6E00EE147B /* AppDelegate.swift */,
-				15DF441F21EBBD6E00EE147B /* ViewController.swift */,
 				15DF442121EBBD6E00EE147B /* Main.storyboard */,
 				15DF442721EBBD6F00EE147B /* Assets.xcassets */,
 				15DF442921EBBD6F00EE147B /* LaunchScreen.storyboard */,
@@ -65,6 +81,35 @@
 				15DF442421EBBD6E00EE147B /* RestoApp.xcdatamodeld */,
 			);
 			path = RestoApp;
+			sourceTree = "<group>";
+		};
+		15DF443221EBC01A00EE147B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				15DF443321EBC03100EE147B /* FoodViewController.swift */,
+				15DF443521EBC03E00EE147B /* DrinksViewController.swift */,
+				15DF444321ED11E500EE147B /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15DF443721EBC41000EE147B /* Classes & Structs */ = {
+			isa = PBXGroup;
+			children = (
+				15DF443821EBC44100EE147B /* MenuItems.swift */,
+			);
+			path = "Classes & Structs";
+			sourceTree = "<group>";
+		};
+		15DF443A21EBC76000EE147B /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				15DF443B21EBC77900EE147B /* FoodTableViewCell.swift */,
+				15DF443C21EBC77900EE147B /* FoodTableViewCell.xib */,
+				15DF443F21ED026500EE147B /* DrinksCollectionViewCell.swift */,
+				15DF444021ED026500EE147B /* DrinksCollectionViewCell.xib */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15DF442B21EBBD6F00EE147B /* LaunchScreen.storyboard in Resources */,
+				15DF443E21EBC77900EE147B /* FoodTableViewCell.xib in Resources */,
+				15DF444221ED026500EE147B /* DrinksCollectionViewCell.xib in Resources */,
 				15DF442821EBBD6F00EE147B /* Assets.xcassets in Resources */,
 				15DF442321EBBD6E00EE147B /* Main.storyboard in Resources */,
 			);
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15DF442021EBBD6E00EE147B /* ViewController.swift in Sources */,
 				15DF441E21EBBD6E00EE147B /* AppDelegate.swift in Sources */,
+				15DF444121ED026500EE147B /* DrinksCollectionViewCell.swift in Sources */,
+				15DF443421EBC03100EE147B /* FoodViewController.swift in Sources */,
+				15DF444421ED11E500EE147B /* DetailsViewController.swift in Sources */,
+				15DF443921EBC44100EE147B /* MenuItems.swift in Sources */,
 				15DF442621EBBD6E00EE147B /* RestoApp.xcdatamodeld in Sources */,
+				15DF443621EBC03E00EE147B /* DrinksViewController.swift in Sources */,
+				15DF443D21EBC77900EE147B /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
